@@ -54,6 +54,41 @@
             font-size: 40px;
             cursor: pointer;
         }
+
+        form {
+            display: flex;
+            gap: 20px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        button {
+            padding: 10px 30px;
+            font-size: 50px;
+            line-height: 30px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            box-shadow: 0 4px 10px #0002;
+        }
+
+        .minus {
+            background-color: red;
+            color: #fff;
+        }
+
+        .plus {
+            background-color: green;
+            color: #fff;
+        }
+
+        .number {
+            padding: 10px 30px;
+            font-size: 50px;
+            line-height: 30px;
+        }
     </style>
 </head>
 
@@ -110,12 +145,21 @@
         <div class="hamburger">🍔</div>
     </header>
 
+    <form>
+        <button class="reset" type="button">Reset</button>
+        <button class="minus" type="button">-</button>
+        <div class="number">0</div>
+        <button class="plus" type="button">+</button>
+    </form>
+
+
     <script src="./js/main01.js" type="module" defer></script>
     <script src="./js/main02.js" type="module" defer></script>
     <script src="./js/main03.js" type="module" defer></script>
     <script src="./js/main04.js" type="module" defer></script>
     <script src="./js/main05.js" type="module" defer></script>
     <script src="./js/main06.js" type="module" defer></script>
+    <script src="./js/main07.js" type="module" defer></script>
 </body>
 
 </html>
