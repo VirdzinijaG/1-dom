@@ -8,11 +8,15 @@ const resetDOM = document.querySelector(".reset");
 function minusClick() {
     rezultatas = rezultatas - 1;
     numberDOM.innerText = rezultatas;
+
+    // galima buvo rasyti = numberDOM.innerText = --rezultatas
 }
 
 function plusCick() {
     rezultatas = rezultatas + 1;
     numberDOM.innerText = rezultatas;
+
+     // galima buvo rasyti = numberDOM.innerText = ++rezultatas
 }
 
 function resetClick() {
